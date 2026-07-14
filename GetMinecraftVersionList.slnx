@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="GetMinecraftVersionList/GetMinecraftVersionList.vcxproj" Id="a196f29f-421b-4732-9474-c5d910456e7a" />
+</Solution>

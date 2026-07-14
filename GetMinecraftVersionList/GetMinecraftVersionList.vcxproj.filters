@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\7zSDK">
+      <UniqueIdentifier>{de43f1df-4ab9-4293-87b0-30907e845acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GetMinecraftVersionList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\ZstdDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zAlloc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zArcIn.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zBuf.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zBuf2.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zCrc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zCrcOpt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zFile.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\7zStream.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Aes.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\AesOpt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Alloc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Bcj2.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Bcj2Enc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Blake2s.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Bra.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Bra86.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\BraIA64.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\BwtSort.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\CpuArch.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Delta.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\DllSecur.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\HuffEnc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzFind.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzFindMt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzFindOpt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Lzma2Dec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Lzma2DecMt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Lzma2Enc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Lzma86Dec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Lzma86Enc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzmaDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzmaEnc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\LzmaLib.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Md5.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\MtCoder.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\MtDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd7.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd7aDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd7Dec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd7Enc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd8.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd8Dec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Ppmd8Enc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha1.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha1Opt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha3.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha256.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha256Opt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha512.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sha512Opt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Sort.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\SwapBytes.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Threads.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Xxh64.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\Xz.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\XzCrc64.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\XzCrc64Opt.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\XzDec.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\XzEnc.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="7zip\C\XzIn.c">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Extract.cpp">
+      <Filter>Source Files\7zSDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Extract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Downloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YesUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Java.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
