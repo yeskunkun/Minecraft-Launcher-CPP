@@ -12,6 +12,7 @@ C++ WinAPI制作的Minecraft: Java Edition 离线启动器！
 * 全程使用 **C++** WinAPI 打造，领先于所有启动器项目。
 
 > 此项目还有一些 UI 层面的 Bug 需要修复，其它均完善，能够正常下载 Java、启动 Minecraft。
+> 引用的项目：[miniz-cpp](https://github.com/tfussell/miniz-cpp)
 
 感谢使用本软件！
 http://www.yeskunkun.cn/
